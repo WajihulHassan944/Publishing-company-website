@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Bakery</title>
+    <link rel="shortcut icon" type="image" href="./image/logo.png">
+    <link rel="stylesheet" href="style1.css">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+    <!-- icons links -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons links -->
+    <!-- animation links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation links -->
+</head>
+<body>
+    <div class="all-content">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <!-- Brand -->
+           
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><img src="./image/menu.png" alt="" width="30px"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                     Packages
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#product-cards" class="dropdown-item">Basic Package</a>
+                        <a href="#product-cards" class="dropdown-item">Premium Package</a>
+                    </div>
+                </li>
+                <!-- dropdown -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Reviews</a>
+                </li>
+              </ul>
+            </div>
+           
+          </nav>
+        <!-- navbar end -->
+      
+
+
+        <!-- home section -->
+        <div class="home">
+		<div class="img"  data-aos="zoom-out-left">
+                <img src="./image/maam.jpg"  alt="">
+            </div>
+            <div class="content" data-aos="zoom-out-right">
+                <h3 style="text-align:center; letter-spacing:18px">WELCOME TO</h3>
+                <h2 style="color:#1b3672; text-align:center; letter-spacing:15px">JKP <br>LITERARY </h2>
+                
+            </div>
+            
+        </div>
+        <!-- home section end -->
+       <div class="container" id="about"    data-aos="fade-up"
+      data-aos-duration="1500">
+        <h1>What Do We Do?</h1>
+        <div class="row">
+            <div class="col-md-12 py-3 py-md-0">
+                  
+   <div class="custom-ol">
+
+
+
+        <ol>
+<li>EDITING</li>
+<li>PROOFREADING</li>
+<li>FORMATTING</li>
+<li>CUSTOM BOOK DESIGNS</li>
+<li>PUBLISHING</li>
+        </ol>
+    </div>
+
+
+<style>.custom-ol {
+    padding: 24px 32px;
+    max-width: 500px;
+    margin: 24px auto;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #073b4c;
+}
+
+
+.custom-ol ol {
+    margin: 0;
+    padding: 0;
+    margin-top: 27px;
+    list-style: none;
+    counter-reset: web-design;
+}
+
+.custom-ol ol li {
+    margin: 22px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: all 400ms;
+}
+
+.custom-ol ol li:hover {
+    background: #ffd166;
+}
+
+.custom-ol ol li::before {
+    content: counter(web-design);
+    counter-increment: web-design;
+    margin-right: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #0071a7;
+    padding: 8px 16px;
+    border-radius: 0 8px 0 8px;
+    color: #eee;
+    transition: all 400ms;
+}
+
+.custom-ol ol li:hover::before {
+    background: #073b4c;
+    transform: scale(1.2) rotate(-5deg);
+}</style>
+
+  
+            </div>
+        </div>
+      </div>
+     
+      <!-- product cards -->
+      <section id="product-cards"    data-aos="fade-up"
+      data-aos-duration="1500">
+        <div class="container">
+            <h1>Packages</h1>
+            <div class="row" style="margin-top:50px;">
+               <div class="cardWrapper">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Basic package </h3>
+                        
+                        <ul>
+							<li>30 MIN. DISCOVERY CALL</li>
+							<li>EDITING OF MANUSCRIPT</li>
+							<li>PROOFREADING</li>
+							<li>FORMATTING</li>
+							<li>COMPLETE PUBLICATION </li>
+						</ul>
+                        <h6 style="color:cyan">$1,250 </h6>
+                    </div>
+                </div>
+				
+				<div class="card">
+                    <div class="card-body">
+                        <h3>Premium package </h3>
+                        <ul>
+							<li>30 MIN. DISCOVERY CALL</li>
+							<li>EDITING OF MANUSCRIPT</li>
+							<li>PROOFREADING</li>
+							<li>FORMATTING</li>
+							<li>COMPLETE PUBLICATION</li>
+							<li>CUSTOM BOOK COVER</li>
+						</ul>
+                        <h6 style="color:cyan">$1,500</h6>
+                    </div>
+                </div>
+               </div>
+               
+            </div>
+
+        </div>
+      </section>
+      <!-- gallary -->
+
+
+
+      <!-- about -->
+      <!-- about -->
+
+
+      <!-- contact  -->
+      <div class="container" id="contact"    data-aos="fade-up"
+      data-aos-duration="1500">
+        <h1>Reviews</h1>
+        <div class="row">
+				<div class="card"><p>"I highly recommend this publishing company. My experience with this company, was and still is more than I expected.
+				It's like you tell them what you want and they will give you exactly what you need. They are understanding, reasonable and on time. Whenever
+				you decide to make a contribution to the world, you can contact them. They are more than ready and willing to assist you."</p>
+				<h2>APOSTLE STANDFORD <br> NASSAU, BAHAMAS</h2>
+				</div>
+				
+				<div class="card"><p>"When I think about my experience so far, many words come to mind. Like effective, professional, dependable, gifted,
+				led by the Holy Spirit, honest, creative, uniquely said and done, transparent, different etc.Without thinking twice, I will recommend 
+				them again and again."</p>
+				<h2>PROPHETESS URISEMAE<br>NASSAU, BAHAMAS</h2>
+				</div>
+        </div>
+        
+		</div>
+      <!-- contact end -->
+
+
+      <!-- footer -->
+      <footer id="footer"    data-aos="fade-up"
+      data-aos-duration="1500">
+        <h1 class="text-center">Publishing Company</h1>
+        <p class="text-center">We are committed to our work.</p>
+        <div class="icons text-center">
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-google"></i>
+            <i class="bx bxl-skype"></i>
+            <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong>Publishing Company</strong> .All Rights Reserved
+        </div>
+        <div class="credite text-center">
+            Designed By Wajih ul Hassan</a>
+        </div>
+      </footer>
+      <!-- footer -->
+
+      <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
